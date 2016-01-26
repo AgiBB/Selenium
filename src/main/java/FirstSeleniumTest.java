@@ -26,8 +26,12 @@ public class FirstSeleniumTest {
         g.open();
         ff.findElementByName("EntryTime").clear();
         ff.findElementByName("EntryTime").sendKeys("3:00");
-        ff.findElementByXPath("/html/body/form/table/tbody/tr[3]/td[2]/font/a").click();
-        ff.findElementById("EntryDate").click();
+        ff.findElementByName("EntryDate").clear();
+        ff.findElementByName("EntryDate").sendKeys("1/26/2016");
+        ff.findElementByName("ExitTime").sendKeys("10:00");
+        ff.findElementByName("ExitDate").clear();
+        ff.findElementByName("ExitDate").sendKeys("1/27/2016");
+        ff.findElementByName("Submit").click();
 
 
 
