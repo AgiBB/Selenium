@@ -31,8 +31,9 @@ public class Google {
         gs.sendKeys(Keys.RETURN);
     }
 
+
     public void open() {
-        ff.get("http://google.pl");
+        ff.get("http://adam.goucher.ca/parkcalc/");
     }
 
     public WebElement getFirstResult() {
